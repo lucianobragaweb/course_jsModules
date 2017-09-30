@@ -4,6 +4,7 @@
     "babel-preset-env": "^1.6.0"
   },
   "scripts": {
-  	"build": "babel src --out-dir dist --copy-files"
+  	"build": "babel src --out-dir dist --copy-files",
+  	"watch": "babel src --watch --out-dir dist --copy-files"
   }
 }
